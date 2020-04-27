@@ -1,3 +1,6 @@
+#1. Use a linear regression model with the Boston housing data set. Your code should then return which factor
+#has the largest effect on the price of housing in Boston.
+#(This is not the correlation coefficient. This is the absolute value of the slope.)
 ##reference  https://towardsdatascience.com/simple-and-multiple-linear-regression-in-python-c928425168f9
 
 ## import the data frame function
@@ -33,7 +36,11 @@ print('The largest effect on the price of housing in Boston is', header[maxpos])
 
 
 
-#2
+#22. Use a KMeans regression model with the Iris data set.
+# Graph the fit when using differing numbers of clusters.
+# Graph the result and either corroborate or refute the assumption
+# that the data set represents 3 different varieties of iris.
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import matplotlib.pyplot as plt
